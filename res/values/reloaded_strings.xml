@@ -56,4 +56,8 @@
     <string name="torch_power_button_gesture_title">Quick torch</string>
     <string name="torch_power_button_gesture_summary">When the screen is off, long-pressing power button will enable torch</string>
 
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+
 </resources>
