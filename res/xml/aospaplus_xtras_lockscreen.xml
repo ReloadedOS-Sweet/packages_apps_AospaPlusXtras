@@ -44,4 +44,15 @@
         </Preference>
 
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Custom Lockscreen Clock">
+
+        <com.android.settings.support.preferences.SystemSettingListPreference
+            android:entries="@array/clock_style_entries"
+            android:title="Custom Clock style"
+            android:key="clock_style"
+            android:defaultValue="0"
+            android:entryValues="@array/clock_style_values" />
+    </PreferenceCategory>
 </PreferenceScreen>
