@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 The EverestOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- LS Widgets -->
+    <dimen name="kg_widget_margin_vertical">10dp</dimen>
+    <dimen name="kg_widgets_margin_horizontal">8dp</dimen>
+    <dimen name="kg_widgets_main_margin_start">12dp</dimen>
+    <dimen name="kg_widgets_main_margin_end">12dp</dimen>
+    <dimen name="kg_widget_circle_size">64dp</dimen>
+    <dimen name="kg_widgets_icon_padding">20dp</dimen>
+    <dimen name="kg_main_widgets_icon_padding">20dp</dimen>
+    <dimen name="lockscreen_preview_height_all">580dp</dimen>
+    <dimen name="lockscreen_preview_height_with_widgets">480dp</dimen>
+    <dimen name="lockscreen_preview_height_with_no_widgets">380dp</dimen>
+</resources>
