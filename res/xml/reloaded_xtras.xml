@@ -54,10 +54,10 @@
             android:icon="@drawable/ic_settings_powermenu"/> -->
 
         <!-- Misc -->
-        <!-- <PreferenceScreen
+        <PreferenceScreen
             android:key="misc_category"
             android:title="@string/misc_title" 
             android:fragment="org.reloadedos.xtras.fragments.MiscSettings"
-            android:icon="@drawable/ic_settings_miscs"/> -->
+            android:icon="@drawable/ic_settings_miscs"/>
 
 </PreferenceScreen>

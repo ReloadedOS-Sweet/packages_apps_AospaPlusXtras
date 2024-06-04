@@ -44,4 +44,8 @@
     <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
     <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
 
+    <!-- GamesPropsUtils -->
+    <string name="games_device_spoof_title">Unlock higher FPS in games</string>
+    <string name="games_device_spoof_summary">Spoof device as a high-end model in certain games, to unlock higher FPS</string>
+
 </resources>
