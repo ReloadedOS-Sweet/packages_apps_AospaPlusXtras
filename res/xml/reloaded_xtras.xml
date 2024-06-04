@@ -33,11 +33,11 @@
             android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Buttons -->
-        <!-- <PreferenceScreen
+        <PreferenceScreen
             android:key="buttonsettings_category"
             android:title="@string/button_title"
             android:fragment="org.reloadedos.xtras.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/> -->
+            android:icon="@drawable/ic_settings_buttons"/>
 
         <!-- Navigation Bar -->
         <!-- <PreferenceScreen
