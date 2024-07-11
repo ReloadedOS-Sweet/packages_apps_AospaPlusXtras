@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2022 ReloadedOS
+ *Copyright (C) 2022 ReloadedOS
+ *Copyright (C) 2024 AospaPlus
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.reloadedos.xtras.fragments;
+package org.aospaplusos.xtras.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -28,7 +29,7 @@ public class MiscSettings extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.reloaded_xtras_misc;
+        return R.xml.aospaplus_xtras_misc;
     }
 
     @Override
@@ -38,9 +39,9 @@ public class MiscSettings extends DashboardFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.RELOADED;
+        return MetricsProto.MetricsEvent.AOSPAPLUS;
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.reloaded_xtras_misc);
+            new BaseSearchIndexProvider(R.xml.aospaplus_xtras_misc);
 }

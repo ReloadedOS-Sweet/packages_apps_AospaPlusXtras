@@ -18,16 +18,9 @@
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <org.reloadedos.framework.preference.SystemSettingSwitchPreference
-        android:key="torch_power_button_gesture"
-        android:title="@string/torch_power_button_gesture_title"
-        android:summary="@string/torch_power_button_gesture_summary"
-        android:defaultValue="false" />
-
-    <org.reloadedos.framework.preference.SystemSettingSwitchPreference
-        android:key="volbtn_music_controls"
-        android:title="@string/volume_button_music_control_title"
-        android:summary="@string/volume_button_music_control_summary"
-        android:defaultValue="false" />
-
+        <com.android.settings.support.SystemSettingSwitchPreference
+        android:key="enable_floating_rotation_button"
+        android:title="@string/enable_floating_rotation_button_title"
+        android:defaultValue="true" />
+        
 </PreferenceScreen>
