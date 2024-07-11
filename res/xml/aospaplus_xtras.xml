@@ -16,48 +16,48 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/reloaded_xtras_title" >
+    android:title="@string/aospaplus_xtras_title" >
 
         <!-- Status Bar -->
         <PreferenceScreen
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
-            android:fragment="org.reloadedos.xtras.fragments.StatusBarSettings" 
+            android:fragment="org.aospaplusos.xtras.fragments.StatusBarSettings" 
             android:icon="@drawable/ic_settings_statusbar"/>
 
         <!-- Quick Settings panel -->
         <PreferenceScreen
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
-            android:fragment="org.reloadedos.xtras.fragments.QuickSettings"
+            android:fragment="org.aospaplusos.xtras.fragments.QuickSettings"
             android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Buttons -->
         <PreferenceScreen
             android:key="buttonsettings_category"
             android:title="@string/button_title"
-            android:fragment="org.reloadedos.xtras.fragments.ButtonSettings"
+            android:fragment="org.aospaplusos.xtras.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
         <!-- Navigation Bar -->
         <!-- <PreferenceScreen
             android:key="navigationbar_category"
             android:title="@string/navbar_title" 
-            android:fragment="org.reloadedos.xtras.fragments.NavbarSettings"
+            android:fragment="org.aospaplusos.xtras.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/> -->
 
         <!-- Power Menu -->
         <!-- <PreferenceScreen
             android:key="powermenu_category"
             android:title="@string/powermenu_title" 
-            android:fragment="org.reloadedos.xtras.fragments.PowerMenuSettings"
+            android:fragment="org.aospaplusos.xtras.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/> -->
 
         <!-- Misc -->
         <PreferenceScreen
             android:key="misc_category"
             android:title="@string/misc_title" 
-            android:fragment="org.reloadedos.xtras.fragments.MiscSettings"
+            android:fragment="org.aospaplusos.xtras.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_miscs"/>
 
 </PreferenceScreen>

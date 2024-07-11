@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2022 ReloadedOS
+ *Copyright (C) 2022 ReloadedOS
+ *Copyright (C) 2024 AospaPlus
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,10 +15,7 @@
  * limitations under the License.
  */
 
-package org.reloadedos.xtras.fragments;
-
-import android.os.Bundle;
-import android.view.View;
+package org.aospaplusos_xtras.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -27,29 +25,23 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
-public class StatusBarSettings extends DashboardFragment {
-
-    @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
-
-    }
+public class PowerMenuSettings extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.reloaded_xtras_statusbar;
+        return R.xml.aospaplus_xtras_power;
     }
 
     @Override
     protected String getLogTag() {
-        return "StatusBarSettings";
+        return "PowerMenuSettings";
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.RELOADED;
+        return MetricsProto.MetricsEvent.AOSPAPLUS;
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.reloaded_xtras_statusbar);
+            new BaseSearchIndexProvider(R.xml.aospaplus_xtras_power);
 }

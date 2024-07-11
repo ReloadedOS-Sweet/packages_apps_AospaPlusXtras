@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- App Title -->
-    <string name="reloaded_xtras_title">Reloaded Xtras</string>
+    <string name="aospaplus_xtras_title">Aospa Plus Xtras</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
