@@ -74,4 +74,9 @@
     <string name="qqs_columns_landscape_min" translatable="false">@string/qs_columns_landscape_min</string>
     <string name="qqs_columns_landscape_max" translatable="false">@string/qs_columns_landscape_max</string>
 
+    <!-- QS panel -->
+    <string name="qs_panel_options_title">QS tiles layout</string>
+    <string name="qs_panel_options_summary">Customize tiles layout in QS panel</string>
+    <string name="category_name_qs_tiles">QS tiles</string>
+
 </resources>
