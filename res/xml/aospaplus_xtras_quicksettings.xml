@@ -35,7 +35,7 @@
         android:title="@string/qs_panel_options_title">
      
      <Preference
-        android:title="@string/category_name_qs_tiles">
+        android:title="@string/category_name_qs_tiles"/>
 
         <com.android.settings.support.SecureSettingListPreference
             android:key="qs_style_round"
@@ -86,6 +86,7 @@
             android:defaultValue="6"
             settings:textStart="@string/qs_columns_landscape_min"
             settings:textEnd="@string/qs_columns_landscape_max" />
+          </Preference>
     </PreferenceCategory>
 
         <PreferenceCategory
