@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.support;
+package org.aospaplusos.xtras.fragments;
 
 import android.os.Bundle;
 import android.os.UserHandle;
