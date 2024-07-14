@@ -86,7 +86,6 @@
             android:defaultValue="6"
             settings:textStart="@string/qs_columns_landscape_min"
             settings:textEnd="@string/qs_columns_landscape_max" />
-          </Preference>
     </PreferenceCategory>
 
         <PreferenceCategory
