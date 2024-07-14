@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.aospaplusos.xtras.fragments;
+package org.aospaplusos.xtras;
 
 import com.android.internal.logging.nano.MetricsProto;
 
