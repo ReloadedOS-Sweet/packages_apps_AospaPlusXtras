@@ -17,17 +17,5 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-
-    <org.aospa.framework.preference.SystemSettingSwitchPreference
-        android:key="torch_power_button_gesture"
-        android:title="@string/torch_power_button_gesture_title"
-        android:summary="@string/torch_power_button_gesture_summary"
-        android:defaultValue="false" />
-
-    <org.aospa.framework.preference.SystemSettingSwitchPreference
-        android:key="volbtn_music_controls"
-        android:title="@string/volume_button_music_control_title"
-        android:summary="@string/volume_button_music_control_summary"
-        android:defaultValue="false" />
-
+        
 </PreferenceScreen>
