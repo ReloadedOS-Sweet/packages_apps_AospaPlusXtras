@@ -76,9 +76,9 @@ public class QSPanelSettings extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.aospaplus_xtras_qs_panel_settings;
+        return R.xml.aospaplus_xtras_quicksettings;
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.aospaplus_xtras_qs_panel_settings);
+            new BaseSearchIndexProvider(R.xml.aospaplus_xtras_quicksettings);
 }
