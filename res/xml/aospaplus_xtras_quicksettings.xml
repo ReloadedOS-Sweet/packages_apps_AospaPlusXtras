@@ -36,6 +36,7 @@
             android:entryValues="@array/qs_tile_shape_values"
             android:defaultValue="2" />
 
+         <!-- REMOVED FOR NOW
         <com.android.settings.support.SecureSettingSeekBarPreference
             android:key="qqs_num_columns"
             android:title="@string/qqs_columns"
@@ -71,6 +72,7 @@
             android:defaultValue="6"
             settings:textStart="@string/qs_columns_landscape_min"
             settings:textEnd="@string/qs_columns_landscape_max" />
+         -->
     </PreferenceCategory>
 
         <PreferenceCategory
