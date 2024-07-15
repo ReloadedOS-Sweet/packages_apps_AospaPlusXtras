@@ -21,9 +21,6 @@
     <PreferenceCategory
         android:key="qs_panel_options"
         android:title="@string/qs_panel_options_title">
-     
-     <Preference
-        android:title="@string/category_name_qs_tiles"/>
 
         <com.android.settings.support.SecureSettingListPreference
             android:key="qs_style_round"
