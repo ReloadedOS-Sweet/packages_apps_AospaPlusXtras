@@ -100,7 +100,7 @@
             android:entryValues="@array/brightness_slider_style_values"
             android:defaultValue="0" />
 
-        <com.android.settings.development.SecureSettingSwitchPreference
+        <com.android.settings.support.SecureSettingListPreference
             android:key="qs_show_auto_brightness"
             android:title="@string/qs_auto_brightness_title"
             android:summary="@string/qs_auto_brightness_summary"
