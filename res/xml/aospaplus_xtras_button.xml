@@ -17,5 +17,10 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+        <com.android.settings.support.SystemSettingSwitchPreference
+        android:key="enable_floating_rotation_button"
+        android:title="@string/enable_floating_rotation_button_title"
+        android:defaultValue="true" />
         
 </PreferenceScreen>
