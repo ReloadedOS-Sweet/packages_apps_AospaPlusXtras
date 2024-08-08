@@ -46,6 +46,13 @@
             android:fragment="org.aospaplusos.xtras.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
+        <!-- Lock Screen -->
+        <PreferenceScreen
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title"
+            android:fragment="org.aospaplusos.xtras.fragments.LockScreenSettings"
+            android:icon="@drawable/ic_settings_lockscreens"/>
+
         <!-- Power Menu -->
         <PreferenceScreen
             android:key="powermenu_category"
