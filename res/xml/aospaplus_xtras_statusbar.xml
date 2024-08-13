@@ -26,6 +26,13 @@
     </Preference>
 
     <Preference
+         android:key="statusbar_battery"
+         android:icon="@drawable/ic_battery_circle"
+         android:title="@string/battery_percent_title"
+         android:summary="@string/battery_percent_summary"
+         android:fragment="com.android.settings.fuelgauge.StatusBarBatterySettings" />
+
+    <Preference
         android:key="network_traffic_settings"
         android:icon="@drawable/ic_settings_network_traffic"
         android:title="@string/network_traffic_title"
